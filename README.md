@@ -1,84 +1,110 @@
 # FINDEXY
 
-**Transparent data chains for confident decisions.**
+**Blockchain Intelligence & Attribution Infrastructure**
 
-FINDEXY is a blockchain data indexing and transaction intelligence project focused on transparent on-chain verification, wallet attribution, AML risk analysis, and faster compliance workflows.
+> **Trace. Attribute. Verify. Understand.**  
+> *We Find Transparent Data Chains for You.*
 
-The project begins with **BNB Smart Chain** and is designed for banks, exchanges, OTC desks, payment services, digital asset projects, and compliance teams.
+FINDEXY is a blockchain intelligence project focused on transaction tracing, wallet and entity attribution, evidence-backed verification, CEX/DEX infrastructure classification, and AML/KYC-oriented analytical workflows.
 
-## Core Products
+## Core Architecture
 
-### FINDEXY Index
+`DATA -> TRACE -> ATTRIBUTION -> EVIDENCE -> VERIFICATION`
 
-Indexes blockchain transactions, tokens, wallets, smart contracts, and relationships between addresses in a structured data model.
-
-### AML Risk Engine
-
-Analyzes transaction history, sources of funds, wallet connections, and potential risk indicators. The system is intended to provide explainable risk signals for compliance review.
-
-### Wallet Attribution
-
-Helps projects and companies verify ownership and purpose of official blockchain addresses.
-
-The service may include:
-
-* wallet ownership verification;
-* signed-message confirmation;
-* classification of treasury, operational, liquidity, and team wallets;
-* preparation of supporting evidence;
-* submission support for blockchain explorers and analytics platforms;
-* monitoring of public labels and risk flags.
-
-Final attribution decisions are made independently by each explorer, exchange, tracker, or analytics provider.
+FINDEXY is designed to distinguish directly verifiable on-chain facts, verified attribution, third-party information, analytical inference, and unconfirmed or disputed claims.
 
 ## FINDEXY Token
 
-| Parameter | Value                                                                                   |
-| --------- | --------------------------------------------------------------------------------------- |
-| Name      | FINDEXY                                                                                 |
-| Symbol    | FINDEXY                                                                                 |
-| Network   | BNB Smart Chain                                                                         |
-| Standard  | BEP-20                                                                                  |
-| Contract  | `0xE5c9e94b697cae5827a388B44Dd404dA689f5D85`                                            |
-| Explorer  | [View on BscScan](https://bscscan.com/token/0xE5c9e94b697cae5827a388B44Dd404dA689f5D85) |
+| Parameter | Value |
+|---|---|
+| Network | BNB Smart Chain |
+| Name | FINDEXY |
+| Symbol | FINDEXY |
+| Contract | `0xE5c9e94b697cae5827a388B44Dd404dA689f5D85` |
+| Total Supply | 21,000,000,000 FINDEXY |
+| Decimals | 18 |
+| Website | https://findexy.com |
+| Independent Security Audit | **PENDING** |
 
-Always verify the contract address using official FINDEXY sources before interacting with the token.
+### Contract Architecture
 
-## Project Principles
+The FINDEXY token uses OpenZeppelin ERC20 and has:
 
-* Transparent blockchain data
-* Explainable transaction analysis
-* Verifiable wallet attribution
-* Secure integration through API
-* Privacy-conscious compliance workflows
-* Multi-chain development roadmap
+- fixed one-time supply;
+- no additional minting;
+- no owner or administrator;
+- no privileged roles;
+- no blacklist;
+- no pause;
+- no transfer tax or fee;
+- no max transaction or max wallet limit;
+- no proxy or upgradeability;
+- no external calls in the FINDEXY contract.
 
-## Development Status
+**The intelligence layer may be sophisticated. The token layer is intentionally simple.**
 
-FINDEXY is currently under active development.
+## FINDEXY Product Architecture
 
-The initial development scope includes:
+### FINDEXY Trace
+Transaction and asset-flow analysis across blockchain addresses and infrastructure.
 
-1. BNB Smart Chain transaction indexing;
-2. wallet and transaction relationship analysis;
-3. wallet attribution registry;
-4. AML risk indicators and reports;
-5. API and compliance workspace;
-6. future integration with licensed KYC providers.
+### FINDEXY Attribution
+Evidence-led wallet and entity attribution with explicit verification status.
 
-Project documentation, smart contract sources, technical updates, and audit reports will be published in this repository as they become available.
+### FINDEXY Risk
+Risk indicators for analytical and compliance-oriented workflows. A risk indicator is not a legal finding or final compliance decision.
+
+### FINDEXY Verify
+Voluntary wallet-control verification, including cryptographic signed-message verification where technically suitable.
+
+## Attribution Status
+
+FINDEXY v1.1 uses:
+
+- **VERIFIED**
+- **HIGH CONFIDENCE**
+- **PROBABLE**
+- **UNCONFIRMED**
+- **DISPUTED**
+
+The project avoids arbitrary numerical confidence percentages unless a reproducible scoring methodology is published.
+
+## Documentation
+
+- [Whitepaper v1.1 EN](docs/FINDEXY_Whitepaper_v1.1_EN.md)
+- [Tokenomics v1.1 EN](docs/FINDEXY_Tokenomics_v1.1_EN.md)
+- [FINDEXY Smart Contract](contracts/FINDEXY.sol)
+
+## Token Allocation - v1.1 Target Model
+
+| Category | Share | FINDEXY |
+|---|---:|---:|
+| Ecosystem & Technology | 40% | 8,400,000,000 |
+| Strategic Reserve | 25% | 5,250,000,000 |
+| Liquidity | 15% | 3,150,000,000 |
+| Community & Adoption | 10% | 2,100,000,000 |
+| Team | 10% | 2,100,000,000 |
+| **Total** | **100%** | **21,000,000,000** |
+
+Allocation wallet addresses, team vesting implementation, initial liquidity deployment, and circulating-supply figures will be published separately when implemented.
+
+## Shariah Review
+
+FINDEXY includes a Shariah Compliance Framework in its documentation but **does not claim Shariah compliance at this stage**. Any such claim requires a separate independent review and opinion applicable specifically to FINDEXY and the products reviewed.
+
+## Security
+
+The base token contract is intentionally minimal. Independent smart-contract security audit and publication of the audit report remain part of the security roadmap.
 
 ## Official Links
 
-* **GitHub:** [github.com/h6xrs4wb42-ctrl/findexy](https://github.com/h6xrs4wb42-ctrl/findexy)
-* **X:** [x.com/findexycom](https://x.com/findexycom)
-* **BNB Smart Chain Contract:** [0xE5c9...5D85](https://bscscan.com/token/0xE5c9e94b697cae5827a388B44Dd404dA689f5D85)
+- Website: https://findexy.com
+- X: https://x.com/findexycom
+- BNB Smart Chain contract: https://bscscan.com/token/0xE5c9e94b697cae5827a388B44Dd404dA689f5D85
 
 ## Disclaimer
 
-FINDEXY is a technology project under development. Published analytical information should not be treated as legal, financial, investment, or regulatory advice.
-
-AML risk indicators and wallet attribution data are intended to support professional review and do not replace decisions made by authorized compliance specialists or third-party platforms.
+FINDEXY documentation is provided for informational and technical purposes. It is not investment, legal, tax, regulatory, or Shariah advice and does not guarantee functionality, liquidity, market price, or return.
 
 ## License
 
