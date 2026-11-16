@@ -24,7 +24,7 @@ FINDEXY is designed to distinguish directly verifiable on-chain facts, verified 
 | Total Supply | 21,000,000,000 FINDEXY |
 | Decimals | 18 |
 | Website | https://findexy.com |
-| Independent Security Audit | **PENDING** |
+| Independent Security Audit | [CertiK — updated report, 16 November 2026](docs/FINDEXY_CertiK_Security_Assessment_2026-11-16.pdf) |
 
 ### Contract Architecture
 
@@ -94,7 +94,12 @@ FINDEXY includes a Shariah Compliance Framework in its documentation but **does 
 
 ## Security
 
-The base token contract is intentionally minimal. Independent smart-contract security audit and publication of the audit report remain part of the security roadmap.
+The base token contract is intentionally minimal. CertiK security assessment reports are available below:
+
+- [Updated report — 16 November 2026](docs/FINDEXY_CertiK_Security_Assessment_2026-11-16.pdf)
+- [Previous report — 10 November 2026](docs/FINDEXY_CertiK_Security_Assessment_2026-11-10.pdf)
+
+The previous report is retained for reference. An audit does not guarantee the absence of vulnerabilities.
 
 ## Official Links
 
