@@ -103,6 +103,8 @@ The previous report is retained for reference. An audit does not guarantee the a
 
 ## Official Links
 
+- [Official DEX Listings & Market Links](docs/OFFICIAL_DEX_LISTINGS.md)
+
 - Website: https://findexy.com
 - X: https://x.com/findexycom
 - BNB Smart Chain contract: https://bscscan.com/token/0xE5c9e94b697cae5827a388B44Dd404dA689f5D85
