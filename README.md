@@ -101,6 +101,11 @@ The base token contract is intentionally minimal. CertiK security assessment rep
 
 The previous report is retained for reference. An audit does not guarantee the absence of vulnerabilities.
 
+## Market Data
+
+- [FINDEXY Daily Rates Archive](rates/README.md)
+- [Machine-readable daily price data](rates/FINDEXY_USD_DAILY.csv)
+
 ## Official Links
 
 - [Official DEX Listings & Market Links](docs/OFFICIAL_DEX_LISTINGS.md)
